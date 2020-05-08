@@ -14,7 +14,7 @@ echo -e "\e[1;35m
 	* Coded By BADR
 	* https://www.facebook.com/groups/HTLovers/
 	* https://www.facebook.com/Waled.Abo.Badr
-	* Don't Share! Enjoy ;)
+	* Enjoy to everyone enjoys
     ################################################################\r\n;
 
 
