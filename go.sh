@@ -19,6 +19,16 @@ echo -e "\e[1;32m
 
 \e[0m"
 
-for ip in `cat ips.txt`;do
+mkdir .tmp 2>/dev/null
+rm -rf ./.tmp/*
+
+split -l 500 ips.txt ./.tmp/
+
+for file in `ls ./.tmp/`; do
+gr=`cat ./.tmp/${file} > ips`
+mkdir ips 2>/dev/null
+sleep 2
+for ip in `cat ips`;do
 php scan.php $ip &
+done
 done
