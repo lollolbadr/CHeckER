@@ -52,7 +52,7 @@ if(strlen($CHKhttp) > 0){
         #echo "     + Found http://$ip/ -> ".  str_replace( "<title>" , "" , str_replace("</title>" , "" ,$TestHTTP[0][0]))."\n";
         $SS = str_replace( "<title>" , "" , str_replace("</title>" , "" ,$TestHTTP[0][0]));
         $SS = str_replace( "<TITLE>" , "" , str_replace("</TITLE>" , "" ,$SS));
-        $fp = fopen('Found.txt', 'a+');
+        $fp = fopen('Badr-Found.txt', 'a+');
         fwrite($fp, "http://".$ip.":$PORT/     \t $SS \n");
         fclose($fp);
 		
@@ -65,7 +65,7 @@ if(strlen($CHKhttps) > 0){
         #echo "     + Found https://$ip/ ->  ". str_replace( "<title>" , "" , str_replace("</title>" , "" ,$TestHTTPS[0][0]))."\n";
         $PSS = str_replace( "<title>" , "" , str_replace("</title>" , "" ,$TestHTTPS[0][0]))."\n";
         $PSS = str_replace( "<TITLE>" , "" , str_replace("</TITLE>" , "" ,$PSS))."\n";
-        $fp = fopen('Found.txt', 'a+');
+        $fp = fopen('Badr-Found.txt', 'a+');
         fwrite($fp, "https://".$ip.":$PORT/     \t $PSS");
         fclose($fp);  
 
