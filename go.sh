@@ -14,7 +14,7 @@ echo -e "\e[1;32m
 	* https://www.facebook.com/groups/HTLovers/
 	* https://www.facebook.com/Waled.Abo.Badr
 	* Don't Share! Enjoy ;)
-    ################################################################\r\n";
+    ################################################################\r\n;
 
 
 \e[0m"
