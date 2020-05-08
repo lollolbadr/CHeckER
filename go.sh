@@ -8,7 +8,13 @@ echo -e "\e[1;32m
 (__/\__)(__)(__)(_)\_) (__)    (__) (_____)  (__)  (____)(__)(__)(__) 
 
 
-
+    ################################################################
+	* checker ip port
+	* Coded By BADR
+	* https://www.facebook.com/groups/HTLovers/
+	* https://www.facebook.com/Waled.Abo.Badr
+	* Don't Share! Enjoy ;)
+    ################################################################\r\n";
 
 
 \e[0m"
