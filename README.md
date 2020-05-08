@@ -1,6 +1,5 @@
-echo "# checker" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/lollolbadr/checker.git
-git push -u origin master
+
+git clone https://github.com/lollolbadr/checker.git
+add ip in ip.txt
+and start 
+bash go.sh
