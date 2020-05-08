@@ -3,14 +3,6 @@
 /*
 checker ip port
 */
-echo "
-    ################################################################
-	* checker ip port
-	* Coded By BADR
-	* https://www.facebook.com/groups/HTLovers/
-	* https://www.facebook.com/Waled.Abo.Badr
-	* Don't Share! Enjoy ;)
-    ################################################################\r\n";
 error_reporting(0);
 
 $IPS = $argv[1];
